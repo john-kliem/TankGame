@@ -10,7 +10,7 @@ env = gym.make('anchoring_bias/AnchoringBias-v1',  render_mode=None, rows=32, co
 
 model = PPO("MlpPolicy", env, verbose=1,tensorboard_log="./ppo_tankgame_tensorboard/")
 
-for i in range(1000):
+for i in range(10):
     model.learn(total_timesteps=150000)
     model.save("./ppo/ppo_bias_"+str(i*150))
     break
