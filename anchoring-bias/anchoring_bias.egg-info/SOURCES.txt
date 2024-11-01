@@ -1,0 +1,9 @@
+setup.py
+anchoring_bias/__init__.py
+anchoring_bias.egg-info/PKG-INFO
+anchoring_bias.egg-info/SOURCES.txt
+anchoring_bias.egg-info/dependency_links.txt
+anchoring_bias.egg-info/requires.txt
+anchoring_bias.egg-info/top_level.txt
+anchoring_bias/envs/__init__.py
+anchoring_bias/envs/anchoring_bias.py
