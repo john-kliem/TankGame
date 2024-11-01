@@ -9,6 +9,6 @@ env = gym.make('anchoring_bias/AnchoringBias-v1',  render_mode=None, rows=32, co
 #vec_env = make_vec_env(env, n_envs=25)
 
 model = DQN("MlpPolicy", env, verbose=1,tensorboard_log="./dqn_tankgame_tensorboard/")
-for i in range(1000):
+for i in range(10):
     model.learn(total_timesteps=150000)
     model.save("./dqn/dqn_bias_"+str(i*150))
