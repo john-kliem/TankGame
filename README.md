@@ -7,7 +7,7 @@
 Requires Python 3.10+
 
 ```
-git clone https://spork.nre.navy.mil/<Your Spork Account>/tankgame.git
+git clone https://github.com/john-kliem/TankGame.git
 cd tankgame
 pip install -e anchoring-bias
 ```
